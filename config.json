@@ -1,0 +1,26 @@
+{
+  "name": "Github",
+  "description": "Displays the contributions of a list of github users",
+  "elementName": "marcel-plugin-github",
+  "files": ["index.html"],
+  "props": [
+    { 
+      "name": "users",
+      "description": "Array of usernames", 
+      "type": "Array<String>", 
+      "defaultValue": [] 
+    },
+    { 
+      "name": "client_id", 
+      "description": "Client ID to connect to Github",
+      "type": "String",
+      "defaultValue": "" 
+    },
+    {
+      "name": "client_secret", 
+      "description": "Client secret to connect to github",
+      "type": "String",
+      "defaultValue": "" 
+    }
+  ]
+}
